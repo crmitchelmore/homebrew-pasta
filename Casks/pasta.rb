@@ -1,6 +1,6 @@
 cask "pasta" do
-  version "0.7.4"
-  sha256 "60dd18f0ad72a6a3650a86e5125eaff88fa17608b32a47ede355f1efe76aa72c"
+  version "0.7.6"
+  sha256 "765eb685a00ca3ab7e490b38fb3957f89ee5a6a8dbaf4c3173d093a5c381be5b"
 
   url "https://github.com/crmitchelmore/pasta/releases/download/v#{version}/Pasta-#{version}.dmg"
   name "Pasta"
