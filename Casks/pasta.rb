@@ -1,8 +1,11 @@
 cask "pasta" do
-  version "1.10.0"
-  sha256 "64f44fc64b9653c9f2b0708f6772be3a530160d684335fc61c46b4f2e306b1c3"
+  arch arm: "AppleSilicon", intel: "Intel"
 
-  url "https://github.com/crmitchelmore/pasta/releases/download/v#{version}/Pasta-#{version}.dmg"
+  version "1.11.0"
+  sha256 arm:   "7290b22331d10881b0da0e29053c1c09b878de9ff4cf2824896f6afef17bbd25",
+         intel: "29939fe5ea5a3f6987465cf881600382039010cbc0380cb72b0fac74735240ab"
+
+  url "https://github.com/crmitchelmore/pasta/releases/download/v#{version}/Pasta-#{version}-#{arch}.dmg"
   name "Pasta"
   desc "Blazing-fast, local-first clipboard history manager for macOS"
   homepage "https://pasta-app.com"
